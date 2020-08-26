@@ -1,0 +1,6 @@
+[
+    {
+      "name": "dollars-demo-api",
+      "imageUri": "251607623447.dkr.ecr.us-west-2.amazonaws.com/dollars-demo-api:latest"
+    }
+  ]
