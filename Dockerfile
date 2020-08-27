@@ -1,4 +1,4 @@
-FROM vad1mo/groovy-docker
+FROM 251607623447.dkr.ecr.us-east-1.amazonaws.com/groovy-docker:latest
 
 COPY src/service.groovy /app/service.groovy
 EXPOSE 5050
