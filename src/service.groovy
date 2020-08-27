@@ -8,16 +8,16 @@ import static ratpack.groovy.Groovy.ratpack
 ratpack {
     handlers {
         get {
-            render "/ - Dollar\$ API is Up Host:${InetAddress.getLocalHost()}"
+            render "Dollar\$ API is Up"
         }
         get(":name") {
-            render "/ - Hello $pathTokens.name! Host:${InetAddress.getLocalHost()}"
+            render "/ - Hello $pathTokens.name!"
         }
         get("/:path1/:path2") {
-            render "/:path1/:path2 - Hello to $pathTokens.path1/$pathTokens.path2 ! Host:${InetAddress.getLocalHost()}"
+            render "/:path1/:path2 - Hello to $pathTokens.path1/$pathTokens.path2!"
         }
         get("/:path1/:path2/:path3") {
-            render "/:path1/:path2/:path3 - Hello to $pathTokens.path1/$pathTokens.path2/$pathTokens.path3 ! Host:${InetAddress.getLocalHost()}"
+            render "/:path1/:path2/:path3 - Hello to $pathTokens.path1/$pathTokens.path2/$pathTokens.path3!"
         }
     }
 }
